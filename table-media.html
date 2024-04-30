@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> <link rel="stylesheet" href="style.css">
+<title>Table & Media</title>
+</head>
+<body>
+<!--Table-->
+<h1 class="yellow-text center">Table</h1>
+<div class="divider"></div> |
+<br>
+<div class="container">...
+</div>
+<br><br><br><br><br><br>
+<!--Media CSS-->
+<h1 class="yellow-text text-lighten-2 center"> Media CSS</h1>
+<div class="divider"></div>
+<div class="container"> ... </div>
+<!-- Material Box -->
+<br><br><br><br><br><br>
+<h1 class="center yellow-text text-lighten-2">Media</h1>
+<div class="divider"></div>
+<div class="container">
+</div>
+<div class="container">
+<!-- Slider-->
+<h3 class="yellow-text"> Slider</h3>
+<p> Our slider is a simple and elegant image carousel. You can also have captions that will be transitioned on their own depending on their alignment. You can also have indicators that show up on the bottom of the slider.</p>
+<div class="slider">
+<ul class="slides">
+<li>
+<img src="slider/slider1.jpg" alt="">
+<div class="caption center-align"> <h3>Grains</h3>
+<h5 class="light red-text text-lighten-3"> This is grains</h5> </div>
+</li>
+<li>
+<img src="slider/slider2.jpg" alt="">
+<div class="caption center-align"> 
+<h3>This is our big Tagline</h3>
+<h5 class="light red-text text-lighten-3"> Small slogan
+</h5>
+</div>
+</li>
+<li>
+<img src="slider/slider3.jpg" alt="">
+<div class="caption center-align">
+<h3>this is our big Tagline</h3>
+<h5 class="light red-text text-lighten-3"> Here's our small slogan</h5></div>
+</li>
+<li>
+    <img src="slider/slider4.jpg" alt="">
+    <div class="caption center-align">
+    <h3>Flower</h3>
+    <h5 class="light red-text text-lighten-3"> White Flowers</h5>
+    </div>
+    </li>
+    </ul>
+    </div>
+    </div> 
+
+<!--height of the webpage-->
+| | | | <div style="height:1000px;"> </div>
+<!-- Jquery CDN-->
+| | | <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs00EvtFFmqPF/1YI/Cxo=" crossorigin="anonymous"></script> <!-- Compiled and minified Javascript
+<-- Compiled and minified javascript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script>
+$(document).ready(function(){
+//materialbox
+$('.materialboxed').materialbox({
+inDuration: 1000,
+outDuration: 1000
+});
+//slider
+$(document).ready(function(){
+$('.slider').slider({
+indicators:false,
+height: 300,
+duration: 1000,
+interval: 1000
+});
+});
+});
+</script>
+</body> </html>
